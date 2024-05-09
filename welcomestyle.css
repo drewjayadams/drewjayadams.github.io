@@ -1,0 +1,29 @@
+#header{
+    font-size: 2em;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    right:33%;
+    font-family: 'Courier New',monospace;
+}
+#list{
+    font-size: 1em;
+    font-family: 'Courier New',monospace;
+}
+a {
+  color: darkorange;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  transition: color 200ms ease-out 100ms;
+  transition-property: background, color;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+a:visited{
+    color:darkorange;
+}
+a:hover{
+    color:dodgerblue;
+  background: darkorange;
+}
